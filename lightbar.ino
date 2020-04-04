@@ -1,28 +1,33 @@
-void setup() {
+void setup()
+{
   // put your setup code here, to run once:
-  for (int i = 2; i < 10; i++) {
+  for (int i = 2; i < 10; i++)
+  {
     pinMode(i, OUTPUT);
   }
-
 }
 
-void allLEDsOff(void) {
-  for (int i = 2; i < 19; i++){
+void allLEDsOff(void)
+{
+  for (int i = 2; i < 19; i++)
+  {
     digitalWrite(i, LOW);
   }
 }
 
-void loop() {
+void loop()
+{
   // put your main code here, to run repeatedly:
-  for (int i = 2; i < 9; i++) {
+  for (int i = 2; i < 9; i++)
+  {
     allLEDsOff();
     digitalWrite(i, HIGH);
     delay(150);
   }
-  for (int i = 9; i > 2; i--) {
+  for (int i = 9; i > 2; i--)
+  {
     allLEDsOff();
     digitalWrite(i, HIGH);
     delay(200);
   }
-
 }
