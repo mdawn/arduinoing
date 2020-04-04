@@ -1,6 +1,6 @@
 A collection of Arudino sketches
 
-![](images/7segmentLEDcountdown.jpg)
+![](images/7segmentLEDcountdown.jpeg)
 
 Usually used with libraries
 
